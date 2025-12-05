@@ -16,7 +16,7 @@ h1 {
 }
 .prenom {
     font-size: 200px;
-    font-weight: 50;
+    font-weight:500;
     padding-right: 30px;}
 
 .police2 {
@@ -34,18 +34,18 @@ h1 {
 
 .image {
 
-    width: 20%;      /* largeur de la div image */
+    width: 20%;      
     padding-bottom: 20px;
 }
 
 .moi {
 
-    width: 100%;     /* l'image s'adapte à sa div */
+    width: 100%;     
 }
 
 .texte {
 
-    width: 80%;      /* largeur de la div texte */
+    width: 80%;      
     padding-right: 100px;
     padding-left: 50px;
     padding-top: 50px;
@@ -93,9 +93,13 @@ h1 {
     text-align: left;
     padding-left: 20px;
 } 
+
+.Musique {
+    background-color: #e64221;
+}
+
 .petitblanc {
     font-size: 100px;
-    font-weight: 20;
     color: #f4e7de;
 }
 
@@ -115,25 +119,43 @@ h1 {
     justify-content: center;
 }
 
-.image1D {
-    display: block;
-    margin: 0 auto;
+.Photos {
+    display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    gap: 50px;
+    width: 100%;
+}
+
+.image1D {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.imageGD {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.imageTF {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 a {
     display: block;
     justify-content: center;
     text-align: center;
-    width: 10%;
     background-color: #e64221;
     color: #f4e7de;
     text-decoration: none;
     border-radius: 5px;
-    padding: 3px;
+    padding: 0px;
     margin: 0 auto;
+
+}
+
+a:hover {
+    background-color: rgb(87, 13, 13);
 }
 
 
@@ -145,3 +167,32 @@ a {
     font-size: 30px;
 }
 
+.Wakemeupmhenseptember {
+    font-size: 15px;
+
+}
+
+.ends {
+    font-size: 30px;
+}
+
+.Miss {
+    font-size: 15px;
+}
+
+.Gwada {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.lien1 {
+    width: 50%;
+}
+
+.lien2 {
+    width: 90%;
+}
+
+.lien3 {
+    width: 40%;
+}
